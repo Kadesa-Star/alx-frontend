@@ -20,7 +20,8 @@
 }
 /* set base font size for the html elements */
 html {
-	font-size: 23px;
+	scroll-behavior: smooth;
+	font-size: 62.5%;
 }
 /* set fontfamily and custom color */
 body {
