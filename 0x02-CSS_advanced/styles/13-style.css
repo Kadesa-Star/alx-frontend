@@ -59,19 +59,25 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-/* Style anchor elements to remove text decorations */
+/* Style anchor elements to remove text decorations for hyperlinks only */
 a[href] {
     color: var(--text-color);
     text-decoration: none; /* Removes any text decoration (e.g., underline) */
 }
+
+/* Targeting the visited state for the link */
 a[href]:visited {
-	font-style: italic;
+    font-style: italic; /* Italicizes the text */
 }
+
+/* Targeting the hover state for the link */
 a[href]:hover {
-	text-decoration:underline;
+    text-decoration: underline; /* Adds an underline on hover */
 }
+
+/* Targeting the active state for the link */
 a[href]:active {
-	background-color: var(--color-light-grey);
+    background-color: var(--color-light-grey); /* Sets background color */
 }
 
 /* Card category color */
