@@ -98,7 +98,7 @@ a[href]:active {
     text-align: var(--section-header-align); /* Sets horizontal alignment to center */
 }
 
-/* Section title styling */
+/* Section for title styling */
 .section-title {
     font-family: var(--font-family-title); /* Set font family */
     font-size: var(--font-size-xx-large); /* Set font size */
