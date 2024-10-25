@@ -107,19 +107,15 @@ a:active {
   padding: var(--button-padding);
   border: var(--button-border);
   font-size: var(--button-font-size);
+  color: var(--button-color);
   text-decoration: var(--button-text-decoration);
 }
 
 /* hover state for .button class */
-.button.hover {
+.button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background-color: var(--button-hover-background);
-}
-
-/* Dark theme adjustments for button color */
-[data-section-theme="dark"] {
-  --button-color: var(--color-white);
 }
 
 .visually-hidden {
@@ -234,6 +230,7 @@ ul.row {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
+  --button-color: var(--color-white);
 }
 
 /* footer-copyright class */
