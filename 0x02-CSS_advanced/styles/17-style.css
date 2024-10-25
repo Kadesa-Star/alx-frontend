@@ -42,6 +42,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+  
     --footer-padding: 5rem 0 1rem;
 }
 
@@ -97,13 +98,14 @@ a:active {
     padding: var(--section-header-padding);
     text-align: var(--section-header-align);
 }
+
 .section-body {
     padding: var(--section-body-padding);
 }
 
 .section-footer {
     padding: var(--section-footer-padding);
-    text-align: var(--section-footer-align):
+    text-align: var(--section-footer-align);
 }
 
 .section-title {
