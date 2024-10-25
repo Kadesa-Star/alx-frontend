@@ -101,6 +101,27 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
+/** .button class styling */
+.button {
+  display: var(--button-display);
+  padding: var(--button-padding);
+  border: var(--button-border);
+  font-size: var(--button-font-size);
+  text-decoration: var(--button-text-decoration);
+}
+
+/* hover state for .button class */
+.button.hover {
+  color: var(--button-hover-color);
+  text-decoration: var(--button-hover-text-decoration);
+  background-color: var(--button-hover-background);
+}
+
+/* Dark theme adjustments for button color */
+[data-section-theme="dark"] {
+  --button-color: var(--color-white);
+}
+
 .visually-hidden {
     display: none;
 }
@@ -263,27 +284,6 @@ ul.row {
   display: block;
   padding: 2rem;
   background-color: var(--color-light-grey);
-}
-
-/** .button class styling */
-.button {
-  display: var(--button-display);
-  padding: var(--button-padding);
-  border: var(--button-border);
-  font-size: var(--button-font-size);
-  text-decoration: var(--button-text-decoration);
-}
-
-/* hover state for .button class */
-.button.hover {
-  color: var(--button-hover-color);
-  text-decoration: var(--button-hover-text-decoration);
-  background-color: var(--button-hover-background);
-}
-
-/* Dark theme adjustments for button color */
-[data-section-theme="dark"] {
-  --button-color: var(--color-white);
 }
 
 /* target hover state of a elements inside card-services */
